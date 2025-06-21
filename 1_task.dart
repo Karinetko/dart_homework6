@@ -4,6 +4,7 @@ void main (){
  //comparisonOperators();
  // logicalOperators();
  // ternaryOperator();
+ // assignmentOperators();
 }
 void mathOperators(){
 
@@ -41,9 +42,24 @@ void logicalOperators(){
   print('Need to wait?: $needToWait');
 }
 void ternaryOperator(){
+
   int temperature = 27;
   String weather = temperature > 25 ? 'Warm': 
   temperature < 10 ? 'Very cold': 'Chill';
 
  print('The weather is: $weather');
+ }
+void assignmentOperators(){
+
+ int score =0;
+ int correctAnswers = 17;
+ int mistakes = 3;
+ int totalQuestions = 20;
+
+  score += correctAnswers * 10;
+  score -= mistakes * 3;
+  score *= 2;
+  score ~/= totalQuestions;
+
+  print('Final score: $score');
  }
