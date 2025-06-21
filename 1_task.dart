@@ -6,6 +6,7 @@ void main (){
  // ternaryOperator();
  // assignmentOperators();
  //ifElse();
+ //switchStatement() ;
 }
 void mathOperators(){
 
@@ -75,4 +76,26 @@ void assignmentOperators(){
     } else {
       print('Failed');
     }
+ }
+  void switchStatement(){
+
+      int dayNumber = 5;
+      switch (dayNumber) {
+        case 1:
+        print('Monday');
+        case 2:
+        print('Tuesday');
+        case 3:
+        print('Wednesday');
+        case 4:
+        print('Thursday');
+        case 5:
+        print('Friday');
+        case 6:
+        case 7:
+        print('Weekend');
+        default:
+        print('Invalid day number');
+
+      }
     }
