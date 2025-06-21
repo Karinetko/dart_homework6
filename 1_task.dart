@@ -6,7 +6,9 @@ void main (){
  // ternaryOperator();
  // assignmentOperators();
  //ifElse();
- //switchStatement() ;
+ //switchStatement()
+ forLoop();
+
 }
 void mathOperators(){
 
@@ -51,7 +53,7 @@ void ternaryOperator(){
 
  print('The weather is: $weather');
  }
-void assignmentOperators(){
+  void assignmentOperators(){
 
  int score =0;
  int correctAnswers = 17;
@@ -99,3 +101,20 @@ void assignmentOperators(){
 
       }
     }
+  void forLoop(){
+
+      int sum = 0;
+      for (int i = 1; i <= 10; i++){
+        print(i);
+      }
+
+      for (int i = 1; i <= 10; i++){
+        if (i % 2 == 0){
+          print(i);
+        }
+      }
+      for (int i = 1; i <= 10; i++) {
+         sum += i;
+          print ('Sum of numbers from 1 to 10: $sum');
+          }
+      }
