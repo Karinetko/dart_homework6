@@ -7,7 +7,8 @@ void main (){
  // assignmentOperators();
  //ifElse();
  //switchStatement()
- forLoop();
+ //forLoop();
+ //whileLoop();
 
 }
 void mathOperators(){
@@ -118,3 +119,15 @@ void ternaryOperator(){
           print ('Sum of numbers from 1 to 10: $sum');
           }
       }
+   void whileLoop(){
+
+   int counter = 10;
+   while (counter >= 0) {
+   if (counter % 2 == 0) {
+    print ('Even number: $counter');
+    } 
+    else { print ('Odd number: $counter');     
+    }
+   counter--;
+     }
+    } 
