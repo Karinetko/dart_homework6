@@ -5,6 +5,7 @@ void main (){
  // logicalOperators();
  // ternaryOperator();
  // assignmentOperators();
+ //ifElse();
 }
 void mathOperators(){
 
@@ -63,3 +64,15 @@ void assignmentOperators(){
 
   print('Final score: $score');
  }
+ void ifElse(){
+    int examScore = 65;
+    if (examScore >90 ){
+      print('Excellent');
+    } else if (examScore >= 75 && examScore <=90) {
+      print('Good');
+    } else if (examScore >= 50 && examScore < 75) {
+      print('Satisfactory');
+    } else {
+      print('Failed');
+    }
+    }
