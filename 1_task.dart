@@ -2,8 +2,8 @@ void main (){
 
  //mathOperators();
  //comparisonOperators();
-// logicalOperators();
-
+ // logicalOperators();
+ // ternaryOperator();
 }
 void mathOperators(){
 
@@ -31,7 +31,7 @@ void comparisonOperators(){
   print('Is the number divisible by 5 without a remainder?: $isDivisibleBy5');
 }
 void logicalOperators(){
-  
+
   bool hasMoney = true;
   bool isStoreOpen = false;
 
@@ -40,3 +40,10 @@ void logicalOperators(){
   bool needToWait = !hasMoney || !isStoreOpen;
   print('Need to wait?: $needToWait');
 }
+void ternaryOperator(){
+  int temperature = 27;
+  String weather = temperature > 25 ? 'Warm': 
+  temperature < 10 ? 'Very cold': 'Chill';
+
+ print('The weather is: $weather');
+ }
