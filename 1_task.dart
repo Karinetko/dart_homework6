@@ -2,7 +2,7 @@ void main (){
 
  //mathOperators();
  //comparisonOperators();
-
+// logicalOperators();
 
 }
 void mathOperators(){
@@ -29,4 +29,14 @@ void comparisonOperators(){
   print('Is number greater than 50?: $isGreaterThan50');
   print('Is number less than 100?: $isLessThan100');
   print('Is the number divisible by 5 without a remainder?: $isDivisibleBy5');
+}
+void logicalOperators(){
+  
+  bool hasMoney = true;
+  bool isStoreOpen = false;
+
+  bool canBuy = hasMoney && isStoreOpen;
+  print('Can I buy something?: $canBuy');
+  bool needToWait = !hasMoney || !isStoreOpen;
+  print('Need to wait?: $needToWait');
 }
