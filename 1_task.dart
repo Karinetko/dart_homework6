@@ -1,15 +1,15 @@
 void main (){
 
- //mathOperators();
- //comparisonOperators();
- // logicalOperators();
- // ternaryOperator();
- // assignmentOperators();
- //ifElse();
- //switchStatement()
- //forLoop();
- //whileLoop();
- //breakAndContinue();
+ mathOperators();
+ comparisonOperators();
+ logicalOperators();
+ ternaryOperator();
+ assignmentOperators();
+ ifElse();
+ switchStatement();
+ forLoop();
+ whileLoop();
+ breakAndContinue();
 
 }
 void mathOperators(){
