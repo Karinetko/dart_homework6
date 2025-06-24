@@ -1,14 +1,15 @@
-void main() {
-  //mathOperators();
-  //comparisonOperators();
-  // logicalOperators();
-  // ternaryOperator();
-  // assignmentOperators();
-  //ifElse();
-  //switchStatement();
-  //forLoop();
-  //whileLoop();
-  //breakAndContinue();
+void main (){
+  
+ mathOperators();
+ comparisonOperators();
+ logicalOperators();
+ ternaryOperator();
+ assignmentOperators();
+ ifElse();
+ switchStatement();
+ forLoop();
+ whileLoop();
+ breakAndContinue();
 }
 void mathOperators() {
   double height = 30.9;
